@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dlaughland
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dotdaniel.dev
+  * I am dlaughland (https://keybase.io/dlaughland) on keybase.
+  * I have a public key ASDBaF2x-W0-BSXJWqoW6W6ya0dw_iRpRF-cYJFiTj_CHAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120318bfc40211b878c4cf20cac1c9213c8bf5e3e10e614e6157c7c745d2bbdacbb0a",
+      "host": "keybase.io",
+      "kid": "0120c1685db1f96d3e0525c95aaa16e96eb26b4770fe2469445f9c6091624e3fc21c0a",
+      "uid": "aa4196f509b02ce9f70b4ea1cc581119",
+      "username": "dlaughland"
+    },
+    "merkle_root": {
+      "ctime": 1693756787,
+      "hash": "b88450679e57415ebf7bab2255b8898d4539bb96d48371f1b6e2ac1a9d35233a4ce2ac1220b8468811c29a0210765a0aa1106fbce5c534e4de9184b7b24150eb",
+      "hash_meta": "a813b4a2364406e7a66972a3b931883c1e4c8bf0d90641609066a04df2d3e567",
+      "seqno": 24883130
+    },
+    "service": {
+      "entropy": "MJXdVbM4sijsSJ3aC+gWbJKx",
+      "hostname": "dotdaniel.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.2.1"
+  },
+  "ctime": 1693756889,
+  "expire_in": 504576000,
+  "prev": "d9d5c9ac1f6772e994d56167747712231b2169c565e7554968b66328e3e71f8e",
+  "seqno": 37,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgwWhdsfltPgUlyVqqFulusmtHcP4kaURfnGCRYk4/whwKp3BheWxvYWTESpcCJcQg2dXJrB9ncumU1WFndHcSIxshacVl51VJaLZjKOPnH47EINOqAc9gBXgAS6BsP5AzCl+2CFOEaeB4wCCnKiY8DLRRAgHCo3NpZ8RAY60STYLw32yOsus/OaExul3+VTThaHbRyE7v/Z+tTY9Ulh5muR7Yjjq/wrxqfC+Y/nNp5qridgnnIjdbqNX2BKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGLFVolnw3kpxGRiXIJpDtJkdMnaNfMpnErNeE8UyBL0o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dlaughland
+
+==================================================================
