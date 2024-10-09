@@ -15,32 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Setup PNPM
-        uses: pnpm/action-setup@v2.2.2
-        with:
-          version: 8.x.x
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20.x.x
-          cache: pnpm
-          cache-dependency-path: "./pnpm-lock.yaml"
-
-      - name: Install
-        shell: "bash"
-        run: pnpm install
-
-      - name: Build
-        shell: "bash"
-        run: pnpm run build
-
-      - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: "./dist/"
+        uses: actions/checkout@v4
+      - name: Install, build, and upload
+        uses: withastro/action@v3
 
   deploy:
     needs: build
@@ -51,4 +28,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
