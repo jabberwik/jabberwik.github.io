@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import { Font } from "astro:assets";
 ---
 
 <html lang="en">
@@ -8,9 +9,7 @@ import "../styles/global.css";
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>DOTDANIEL.DEV</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+    <Font cssVariable="--font-ibm-plex-mono" />
 	</head>
 	<body class="bg-slate-300 p-16 flex flex-col min-h-screen">
     <header class="bg-white p-8 border border-solid border-black">

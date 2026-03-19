@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig, fontProviders } from 'astro/config';
 
 import tailwindcss from '@tailwindcss/vite';
 
@@ -6,6 +6,15 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   integrations: [],
   site: 'https://dotdaniel.dev',
+
+  fonts: [
+    {
+      provider: fontProviders.fontsource(),
+      name: 'IBM Plex Mono',
+      cssVariable: '--font-ibm-plex-mono',
+      weights: [500],
+    },
+  ],
 
   vite: {
     plugins: [tailwindcss()],
